@@ -1,0 +1,83 @@
+body {
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/house.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  margin: 0;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.navbar {
+  display: flex;
+  padding: 15px 0;
+  margin: 1% 0 0;
+  border-radius: 5px;
+}
+
+nav {
+  display: flex;
+  padding-right: 5%;
+}
+
+.nav-brand {
+  margin-right: auto;
+  padding-top: 15px;
+  padding-left: 7%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  display: flex;
+  gap: 20px;
+  padding-top: 3%;
+}
+
+.nav-link {
+  list-style-type: none;
+}
+
+.login {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;    
+    padding-top: 10px;
+    padding-right: 70px;
+    
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 0.975rem;
+}
+
+a:hover {
+  color: #e8f3f1;
+  transition: ease-in-out 300ms;
+}
+
+.hero {
+  display: flex;
+  justify-content: start;
+  color: #fff;
+  margin-left: 7%;
+  margin-top: 15%;
+  
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 3% auto;
+    
+}
+
+
